@@ -7,4 +7,7 @@ Data augmentation을 시도하였음. - Random rotation을 줌. flip은 제외�
 
 늦게 참여하였으며, 2022-05-26 오전 02시 기준 17등이었음. (상위 10~20%)
 
-기본적인 train 과정이나 dataset 만드는 과정을 다시 복습하는 중.
+기본적인 EDA , train 과정이나 dataset 만드는 과정을 다시 복습하는 중. 
+
+
+이전엔 valid set을 따로 두었지만, 이번엔 testset의 일부를 valid로 활용함 - model architecture에 비해 data개수가 작음.
