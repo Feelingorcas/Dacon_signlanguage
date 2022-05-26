@@ -1,4 +1,5 @@
 # Dacon_signlanguage
+
 Dacon novice 수화 이미지 classification 
 
 DLA CNN 모델을 활용하여 전이학습을 하되, 일부 layer은 얼리지 않고 진행 (Tree 4 Tree 5부분은 얼리지 않음) - 성능이 향상됨 
@@ -11,3 +12,11 @@ Data augmentation을 시도하였음. - Random rotation을 줌. flip은 제외�
 
 
 이전엔 valid set을 따로 두었지만, 이번엔 testset의 일부를 valid로 활용함 - model architecture에 비해 data개수가 작음.
+
+
+DLA model citation 
+
+citation : 
+{
+https://github.com/ucbdrive/dla
+}
